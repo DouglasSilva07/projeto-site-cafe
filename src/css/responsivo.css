@@ -1,0 +1,124 @@
+@media (max-width:900px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  main {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+  }
+
+  .container-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .cafes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cafes img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  form input,
+  form textarea {
+    width: 100%;
+  }
+
+  .social a {
+    margin-bottom: 100%;
+  }
+
+  .cafes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+     font-size: 14px;
+  }
+
+  .cafes img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .menu-hamburguer {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    background: #8B0000;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 180px;
+    border-radius: 8px;
+    padding: 10px 0;
+    z-index: 10;
+  }
+
+  nav ul.active {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-hamburguer {
+    display: flex;
+  }
+
+  .menu-hamburguer span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: #fff;
+    border-radius: 2px;
+    transition: 0.4s;
+    margin: 4px 0;
+  }
+
+  .titulo-contato {
+    font-size: 24px;
+    padding: 8px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .menu {
+    margin-bottom: 80px;
+  }
+
+  .cafes {
+    height: auto;
+    margin-bottom: 80px;
+  }
+
+  footer {
+    padding: 1em 0.5em;
+    font-size: 14px;
+  }
+}

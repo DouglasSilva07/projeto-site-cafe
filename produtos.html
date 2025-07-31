@@ -1,0 +1,81 @@
+<!-- produtos.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Delícia - Produtos</title>
+
+ <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/estilos.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+ <header class="menu">
+      <h1 class="logo">
+        <img src="src/imagens/logo-cafe-delicia2.jpg" alt="Logo do Café Delícia">
+      </h1>
+      <nav id="menu-nav">
+       
+
+        <label for="menu-hamburguer">
+          <div class="menu-hamburguer" onclick="toggleMenu()">
+             <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+
+        <ul>
+          <li>
+            <a href="index.html">Início</a>
+          </li>
+          <li>
+            <a href="produtos.html">Produtos</a>
+          </li>
+          <li>
+            <a href="sobre.html">Sobre</a>
+          </li>
+          <li>
+            <a href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+
+  <main class="produtos">
+    <ul class="cafes">
+      <li class="cafe cappuccino">
+        <img src="src/imagens/cappuccino.jpg" alt="">
+        Café Cappuccino - R$ 30,00
+        <button class="comprar">Comprar</button>
+
+      </li>
+      <li class="cafe espresso">
+        <img src="src/imagens/cafe-espresso.jpg" alt="">
+        Café Espresso - R$ 35,00
+        <button class="comprar">Comprar</button>
+
+      </li>
+      <li class="cafe mocha">
+        <img src="src/imagens/cafe-mocha.jpg" alt="">
+        Café Mocha - R$ 40,00
+        <button class="comprar">Comprar</button>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Café Delícia</p>
+  </footer>
+
+  <script src="src/js/scripts.js"></script>
+</body>
+
+</html>

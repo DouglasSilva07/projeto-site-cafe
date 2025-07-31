@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Delícia - Início</title>
+ <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/estilos.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="menu">
+      <h1 class="logo">
+        <img src="src/imagens/logo-cafe-delicia2.jpg" alt="Logo do Café Delícia">
+      </h1>
+      <nav id="menu-nav">
+
+        <label for="menu-hamburguer">
+          <div class="menu-hamburguer" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </label>
+
+        <ul>
+          <li>
+            <a href="index.html">Início</a>
+          </li>
+          <li>
+            <a href="produtos.html">Produtos</a>
+          </li>
+          <li>
+            <a href="sobre.html">Sobre</a>
+          </li>
+          <li>
+            <a href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>O melhor café para o seu dia!</h2>
+      <p class="descricao">Descubra nossas melhores opções exclusivas.</p>
+      <a href="produtos.html" class="btn">Ver produtos</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Café Delícia</p>
+  </footer>
+
+  <script src="src/js/scripts.js"></script>
+</body>
+
+</html>
