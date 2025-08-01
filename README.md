@@ -12,10 +12,6 @@ O objetivo é demonstrar minhas habilidades em desenvolvimento web utilizando **
 - Interatividade de navegação (menu “hambúrguer”, hover e animações sutis)  
 - Simulação de fluxo de compra com checkout fictício  
 
-## 📸 Demonstração  
-![Tela inicial do Café Delícia](tela-cafe-delicia.gif)  
-https://seu-usuario.github.io/projeto-cafe-delicia/
-
 ## 🛠 Tecnologias utilizadas  
 - HTML5  
 - CSS3  
