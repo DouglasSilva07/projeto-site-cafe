@@ -33,9 +33,16 @@
     width: 100%;
     max-width: 300px;
   }
+
+  .hero,
+  .sobre {
+    opacity: 1;
+    transition: none;
+  }
 }
 
 @media (max-width: 768px) {
+
   form input,
   form textarea {
     width: 100%;
@@ -50,7 +57,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-     font-size: 14px;
+    font-size: 14px;
   }
 
   .cafes img {
@@ -105,6 +112,7 @@
     padding: 8px;
   }
 }
+
 
 
 @media (max-width: 400px) {
